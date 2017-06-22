@@ -79,7 +79,7 @@
         sound {
 	        compatible = "opencores,de1soc-wm8731-audio";
 		i2s-controller = <&i2s>;
-		audio-codec = <&adxl345>;
+		audio-codec = <&wm8731>;
 		//i2c-mux-gpio = <&portb 19 0>;
         };
 
